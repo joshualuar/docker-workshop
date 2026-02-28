@@ -7,7 +7,7 @@ import pandas as pd
 
 print('arguments', sys.argv)
 
-month = int(sys.argv[1])
+month = int(sys.argv[12])
 
 df = pd.DataFrame({"day": [1, 2], "num_passengers": [3, 4]})
 df['month'] = month
